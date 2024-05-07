@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 2em;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0000;
+    font-size: .5em;
+}
+
+p {
+    color: #000;
+    font-size: 1em;
+}
+
+ul {
+    color: #000;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+button {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1em;
+    padding: 20px 40px;
+    background: #039e10;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #fff;
+}
+
+.container {
+    max-width: 1300px;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+form {
+    width: 100%;
+}
+
+form .form-group {
+    margin-bottom: 1em;
+    color: #000;
+}
+
+form .form-control {
+    padding: 1em;
+    width: 100%;
+}
+
+form button {
+    width: 100%;
+}
+
